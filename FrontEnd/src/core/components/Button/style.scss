@@ -1,0 +1,33 @@
+.btn-container {
+    display: flex;
+}
+
+.btn-icon {
+    height: 40px;
+    width: 174px;
+    border-radius: 10px;
+    color: #FFf;
+    text-transform: uppercase;
+}
+
+.btn h6 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+@media (min-width: 576px) {
+    .btn-icon-container {
+        width: 70px;
+        height: 70px;
+    }
+
+    .btn h6 {
+        font-size: 14px;
+    }
+}

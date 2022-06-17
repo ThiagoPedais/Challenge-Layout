@@ -1,0 +1,36 @@
+.main-nav {
+    background-color:#F78B00;
+    padding-left: 40px;
+    padding-right: 40px;
+    min-height: 70px;
+}
+
+.nav-logo-text{
+    color: #00285F;
+    font-size: 24px;
+}
+
+.colorIcon{
+    color: #00285F;
+}
+  
+.main-menu {
+    display: flex;
+    font-size: 18px;
+    width: 380px;
+    justify-content: space-between;
+
+    a {
+        font-style: normal;
+        color: rgba(255, 255, 255, 0.5);
+        text-transform: uppercase;
+
+        &.active {
+            font-weight: bold;
+            color: #fff
+        }
+        &:hover {
+            color: #fff;
+        }
+    }
+} 
